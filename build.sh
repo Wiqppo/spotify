@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
 python manage.py migrate
-python manage.py collectstatic --noiput
+python manage.py collectstatic
+
+python manage.py runserver
